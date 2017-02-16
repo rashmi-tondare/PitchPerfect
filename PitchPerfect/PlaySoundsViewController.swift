@@ -58,7 +58,6 @@ class PlaySoundsViewController: UIViewController {
         super.viewDidLoad()
         setupAudio()
         try! audioPlayer = AVAudioPlayer.init(contentsOf: recordedAudioURL)
-        
         // format duration to hh:mm:ss
         displayDuration()
     }
